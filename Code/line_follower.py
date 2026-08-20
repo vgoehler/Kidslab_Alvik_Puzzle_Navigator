@@ -24,8 +24,8 @@ def run_line_follower(alvik):
         alvik.left_led.set_color(1, 0, 0)
         alvik.right_led.set_color(0, 0, 0)
     elif control < -0.2:
-        alvik.left_led.set_color(1, 0, 0)
-        alvik.right_led.set_color(0, 0, 0)
+        alvik.left_led.set_color(0, 0, 0)
+        alvik.right_led.set_color(1, 0, 0)
     else:
         alvik.left_led.set_color(0, 1, 0)
         alvik.right_led.set_color(0, 1, 0)
